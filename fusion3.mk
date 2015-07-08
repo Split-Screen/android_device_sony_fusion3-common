@@ -137,8 +137,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/fstab.qcom:root/fstab.qcom \
-    $(COMMON_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom \
-    $(COMMON_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(COMMON_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom
 
 # Prima wifi config
 PRODUCT_COPY_FILES += \
