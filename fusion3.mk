@@ -137,8 +137,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/fstab.qcom:root/fstab.qcom \
-    $(COMMON_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom \
-    $(COMMON_PATH)/rootdir/twrp.fstab:root/etc/twrp.fstab
+    $(COMMON_PATH)/rootdir/fstab.qcom:recovery/root/fstab.qcom
 
 # Prima wifi config
 PRODUCT_COPY_FILES += \
@@ -233,10 +232,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/init.sony.rc:root/init.sony.rc \
     $(COMMON_PATH)/rootdir/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
     $(COMMON_PATH)/rootdir/system/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh
-
-# Post recovery script
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
 
 # Additional sbin stuff
 PRODUCT_COPY_FILES += \

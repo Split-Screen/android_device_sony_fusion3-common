@@ -63,7 +63,7 @@ else
 fi
 
 # unpack the ramdisk image
-busybox cpio -ui < ${load_image}
+busybox cpio -i < ${load_image}
 
 busybox umount /proc
 busybox umount /sys
