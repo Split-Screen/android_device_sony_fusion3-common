@@ -275,7 +275,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # I/O scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=row
+    sys.io.scheduler=bfq
 
 # Touchscreen
 PRODUCT_PROPERTY_OVERRIDES += \
