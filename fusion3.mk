@@ -176,7 +176,7 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    extract_elf_ramdisk
+    keycheck
 
 # Audio
 PRODUCT_PACKAGES += \
